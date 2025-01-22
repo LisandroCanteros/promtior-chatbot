@@ -13,4 +13,4 @@ app = FastAPI(
 add_routes(app, chain , path="/promtior")
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="localhost", port=8765)
+    uvicorn.run(app, host="0.0.0.0", port=8765)
